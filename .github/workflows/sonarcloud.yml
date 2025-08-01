@@ -5,11 +5,9 @@ on:
     branches:
       - main
   pull_request:
-    types: [opened, synchronize, reopened]
 
 jobs:
   sonarcloud:
-    name: SonarCloud Analysis
     runs-on: ubuntu-latest
 
     steps:
